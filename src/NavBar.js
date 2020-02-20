@@ -27,7 +27,7 @@ const NavBar = () => (
 
         &:hover {
           cursor: default;
-          animation: 3s ${spin} linear infinite reverse;
+          animation: 0.125s ${spin} linear infinite reverse;
         }
       `}
       role='img'
