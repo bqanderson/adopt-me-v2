@@ -19,6 +19,7 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@testing-library/react": "^9.4.0",
     "babel-eslint": "^10.0.1",
     "cross-env": "^5.2.0",
     "eslint": "^5.12.1",
@@ -27,6 +28,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.0.2",
+    "jest": "^25.1.0",
     "parcel-bundler": "^1.12.1",
     "prettier": "^1.16.1"
   },
@@ -36,7 +38,8 @@
     "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:update": "jest -u"
   },
   "browserslist": [
     "last 2 Chrome versions",
