@@ -38,7 +38,8 @@
     "dev:mock": "cross-env PET_MOCK=mock parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "jest"
+    "test": "jest",
+    "test:update": "jest -u"
   },
   "browserslist": [
     "last 2 Chrome versions",
