@@ -39,7 +39,9 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "jest",
-    "test:update": "jest -u"
+    "test:update": "jest -u",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "browserslist": [
     "last 2 Chrome versions",
